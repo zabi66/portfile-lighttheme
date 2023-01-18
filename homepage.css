@@ -1,0 +1,591 @@
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}    
+
+header {
+    background-color:rgb(87, 169, 172);
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:4px;
+    border-radius: 23px;
+    border:8px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);
+}
+body {
+     overflow-x: hidden;
+     background: #7F7FD5; 
+     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+     animation: transitionIn 4s;  
+
+}
+.one {
+    color:rgb(247, 240, 240);
+    position:relative; 
+    left: 700px; 
+    top:-10px;
+    font-family: georgia;
+    font-size: 50px;
+} 
+.pro {
+    color:rgb(247, 240, 240);
+    position:relative; 
+    left: 750px; 
+    top: -10px;
+    font-family: georgia;
+    font-size: 40px;
+}
+
+.slider{
+    max-width: 45%;
+    position: relative;
+    top: -140px;
+    margin: auto;
+    height: 300px;
+}
+
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.slider .previous, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(100, 22, 22);
+    font-weight: bold;
+    font-size: 66px;
+     transition: 0.7s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .previous:hover,.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-width: 8px;
+    border-image: initial;
+    border-style: outset;
+    border-color: rgb(57, 150, 167);
+}
+
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+ @keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+} 
+
+h1 {
+    color: rgb(243 8 8);
+    position:relative; 
+    left: 250px; 
+    top: 400px;
+    font-family: georgia;
+    font-size: 70px;
+}
+
+button {
+        background: #8360c3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2ebf91, #8360c3); 
+        position:relative; 
+        left: 350px; 
+        top : -380px;
+        padding: 18px 52px;
+        font-size: 30px;
+        border-radius: 9px;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+      }
+
+button:hover {
+        background: #a8ff78;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: rgb(32, 26, 26);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+.t {
+    position:relative; 
+    left: 300px; 
+    top: 400px;
+}
+
+      .fapple {
+        position:relative; 
+        left: 0px; 
+        top : 150px !important;
+    }
+
+/* My education*/
+
+.h2 {
+    background-color:rgb(87, 169, 172);
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:19px;
+    padding-bottom:22px;
+    border-radius: 23px;
+    border:8px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);
+    position: absolute; 
+    left: 0px; 
+    top: 1250px;
+}
+
+h2{
+    color:rgb(247, 240, 240);
+    position:relative; 
+    left: 700px; 
+    top: 0px;
+    font-family: georgia;
+    font-size: 80px;
+}
+.first {
+    min-width: 20%;
+    position:relative; 
+    left: 0px; 
+    top: 970px;
+    border:2px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);
+}
+.second {
+    min-width: 20%;
+    position:relative; 
+    left: 0px; 
+    top: 1020px;
+    border:2px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);
+}
+.Third {
+    min-width: 20%;
+    position:relative; 
+    left: 0px; 
+    top: 1080px;
+    border:2px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);border-color: rgb(54, 17, 43);
+}
+.first:hover , .second:hover , .Third:hover {
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+p{
+    font-size: 20px;
+}
+summary{
+    font-size: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* My jouary to web development */
+
+.jwd {
+    background-color:rgb(87, 169, 172);
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:22px;
+    border-radius: 23px;
+    border:8px solid;
+    border-style:outset;
+    border-color: rgb(54, 17, 43);
+    position: relative; 
+    left: 0px; 
+    top: 1200px;
+}
+
+h3{
+color:rgb(247, 240, 240);
+position:relative; 
+left: 600px; 
+top: 0px;
+font-family: georgia;
+font-size: 40px;
+}
+
+.html{
+    position:relative; 
+left: 0px; 
+top: 1250px;
+font-size: 25px;
+background: #c5364e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #412b52, #b63c50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #613580, #c5374f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.par {
+    font: italic bold 22px/30px Georgia, serif;
+    text-shadow: 0 12px 16px 0 rgba(20, 20, 20, 0.925), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.css{
+    position:relative; 
+left: 0px; 
+top: 1300px;
+font-size: 25px;
+background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b4334d, #f3ecb0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b4364f, #faf2a9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.js {
+    position:relative; 
+    left: 0px; 
+    top: 1350px;
+    font-size: 25px;
+    background: #c5364e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #613580, #b63c50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #613580, #c5374f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+.py{
+    position:relative; 
+    left: 0px; 
+    top: 1400px;
+    font-size: 25px;
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b4334d, #f3ecb0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b4364f, #faf2a9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.rep {
+    position:relative; 
+    left: 0px; 
+    top: 1450px;
+    font-size: 25px;
+    background: #c5364e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #613580, #b63c50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #613580, #c5374f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.Uix {
+    position:relative; 
+    left: 0px; 
+    top: 1500px;
+    font-size: 25px;
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b4334d, #f3ecb0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b4364f, #faf2a9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  /* tiny slider */
+  h4 {
+    position:relative; 
+     left: 580px; 
+     bottom: 0px;
+     color: #8360c3;  
+     font-family: georgia;
+     font-size: 80px;
+ 
+ }
+   #tslider{
+     border: 1px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ } 
+ .container{
+      position:relative; 
+     left: -50px; 
+     top: 1500px;
+     width: 1700px;
+     margin: auto;
+ }
+ .subcontainer{
+     width: 105%;
+     margin:auto;
+ }
+ .tslide-img{
+     width: 100%;
+     height: 335px;
+     border-radius: 5px;
+     background-position: center;
+     background-size: cover;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.5s;
+ }
+ .tslide-img a{
+     opacity: 0;
+     text-decoration: none;
+     transform: scale(0);
+     transition: 0.6s;
+     font-size: 1.5rem;
+     color: white;
+ }
+ .img-1 {
+     background-image: url(https://i.ibb.co/fCNDv6f/Coursera-FDRPEMT4-YBZY.jpg);
+     border: 5px solid rgb(7, 140, 173);
+ }
+ .img-2 {
+     background-image: url(https://i.ibb.co/P1Y3xR5/Coursera-NBGSNQCWK4-MH.jpg);
+     border: 5px solid rgb(7, 140, 173);
+ }
+ .img-3 {
+     background-image: url(https://i.ibb.co/Khjhn3q/Coursera-24-N8-QWRRGQXB.jpg);
+     border: 5px solid rgb(7, 140, 173);
+ }
+ .img-4 {
+    background-image: url(https://i.ibb.co/NCNFcK5/Coursera-BQFN8745-DKPV.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-5 {
+    background-image: url(https://i.ibb.co/xFgg0wR/Coursera-C8-F2-T78-WRYSZ.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-6 {
+    background-image: url(https://i.ibb.co/Lg5MRXT/Coursera-H3-X5-MMS6-GFXK.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-7 {
+    background-image: url(https://i.ibb.co/fYHBFXD/Coursera-N5-EB9-SLZUX4-P.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-8 {
+    background-image: url(https://i.ibb.co/PhJfcvt/Coursera-N8-MJWW3-SHA3-D.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-9 {
+    background-image: url(https://i.ibb.co/Bf2fRbJ/Coursera-RB3-Z9-VDHGD6-W.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-10 {
+    background-image: url(https://i.ibb.co/BKWzy3f/Coursera-NJ3-DGGRQ3-RWS.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-11 {
+    background-image: url(https://i.ibb.co/RzT1wqS/Coursera-WV62-W39-MFTGN.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-12 {
+    background-image: url(https://i.ibb.co/brF87m5/Coursera-YPEX6-EAW7-FFP.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.img-13 {
+    background-image: url(https://i.ibb.co/ngFpJF1/Coursera-ZVDM73-K2-KGGS.jpg);
+    border: 5px solid rgb(7, 140, 173);
+}
+.cour {
+    position:relative; 
+    left: 50px; 
+    top: 1530px;
+    font-size: 25px;
+}
+
+/* My goales */
+
+h5 {
+    position:relative; 
+    left: 550px; 
+    top: 1530px;
+    color: #c93e63;  
+    font-family: georgia;
+    font-size: 60px;
+}
+u {
+    color: #311B92;
+  }
+li {
+      color: rgb(7 8 8);
+      list-style: none;
+      position:relative; 
+      font-size: 40px;
+      left: 300px; 
+      top: 1530px;
+  }
+li:before{
+    color: rgb(155, 26, 26);
+    content: "\2764";
+}
+
+h6 {
+    position:relative;
+    left: 50px; 
+    top: 1630px;
+ font-size: 33px;
+ font-family: fantasy;
+ font-weight: 400;
+ color:#1062d9;
+}
+footer{
+    position:relative; 
+    left: 100px; 
+    top: 1600px;
+    color: #91EAE4;
+    }
+
+@media(max-width:1600px){
+    .container{
+        width: 90%;
+        position:relative; 
+        left: -10px; 
+        top: 1500px;
+    }
+    .one {
+            position:relative; 
+            left: 500px; 
+            top:-10px;
+    
+        }
+    .pro {
+            position:relative; 
+            left: 550px; 
+            top: -10px;
+        }
+    h1{
+            position:relative; 
+            left: 220px; 
+            top: 300px;
+        }
+    
+    button {
+            position:relative; 
+            left: 280px; 
+            top : -310px;
+          }
+    
+    .t {
+            position:relative; 
+            left: 220px; 
+            top: 300px;
+        }
+     /* My education*/
+
+    .h2 {
+            position: absolute; 
+            left: 0px; 
+            top: 1050px;
+        }
+    h2{
+            position:relative; 
+            left: 500px; 
+            top: 0px;
+        }
+    .first {
+            position:relative; 
+            left: 0px; 
+            top: 810px;
+        }
+    .second {
+            position:relative; 
+            left: 0px; 
+            top: 870px;
+        }
+    .Third {
+            position:relative; 
+            left: 0px; 
+            top: 930px;
+        }
+         /* My jouary to web development  */
+    .jwd {
+            position: relative; 
+            left: 0px; 
+            top: 1090px;
+        }
+    h3{
+        position:relative; 
+        left: 400px; 
+        top: 0px;
+        }
+    
+    .html{
+        position:relative; 
+        left: 0px; 
+        top: 1200px;
+        }
+    
+    .css{
+        position:relative; 
+        left: 0px; 
+        top: 1260px;
+        }
+    .js {
+        position:relative; 
+        left: 0px; 
+        top: 1320px;
+        }
+    .py{
+        position:relative; 
+        left: 0px; 
+        top: 1380px;    
+        }
+    .rep {
+        position:relative; 
+        left: 0px; 
+        top: 1440px;
+        }
+          /* tiny slider */
+
+    h4 {
+            position:relative; 
+             left: 400px; 
+             bottom: 0px;
+        }
+    .cour {
+            position:relative; 
+            left: 70px; 
+            top: 1530px;
+            font-size: 25px;
+        }
+
+        /* My goales */
+
+        h5 {
+            position:relative; 
+            left: 400px; 
+            top: 1530px;
+        }
+        li {
+              position:relative; 
+              font-size: 36px;
+              left: 190px; 
+              top: 1530px;
+          }
+        h6 {
+            position:relative;
+            left: 0px; 
+            top: 1630px;
+         font-size: 28px;
+         font-family: fantasy;
+         font-weight: 0;
+        }
+
+ }
+
+
+
+
